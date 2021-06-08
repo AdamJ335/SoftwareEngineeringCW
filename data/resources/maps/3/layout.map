@@ -1,0 +1,34 @@
+25,17
+#########################
+#   #   #   #   #   #   #
+#   #   #   #www#   ##d##
+#                       #
+#   #www#               #
+#   #   #               #
+#   #www#               #
+#                       #
+#          #d#          #
+#          #g#          #
+#          ###          #
+#                       #
+#####                ####
+#                       #
+#                       #
+#                       #
+#########################
+2,1,START
+4,9,KEY,BLUE
+22,2,DOOR,BLUE
+12,8,DOOR,TOKEN,5
+21,1,BOOT,FLIPPER
+10,1,ENEMY,FOLLOW
+18,1,ENEMY,FOLLOW
+23,3,ENEMY,STRAIGHT,RIGHT
+5,12,ENEMY,STRAIGHT,RIGHT
+4,13,ENEMY,STRAIGHT,RIGHT
+21,13,ENEMY,STRAIGHT,RIGHT
+6,1,TOKEN,1
+14,1,TOKEN,1
+6,5,TOKEN,1
+2,5,TOKEN,1
+21,14,TOKEN,1

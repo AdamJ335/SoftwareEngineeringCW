@@ -1,0 +1,39 @@
+23,11
+#######################
+#  d   # #   #    #   #
+#####d## # # #    # t #
+#        # # #    #   #
+#                 #####
+#                 f   #
+#              t  f   #
+#www              f   #
+#www              ##d##
+#pww              #  g#
+#######################
+1,1,START
+1,1,hintblock,Welcome - To get out of this room collect the key.
+4,1,hintblock,Different coloured doors require different coloured keys.
+20,6,hintblock,Some tokens can be worth more than 1.
+11,4,hintblock,Inside here is a smart enemy so watch out.
+2,6,hintblock,In order to cross water you need to collect flippers or push stacks of wood into water.
+17,6,hintblock,In order to cross fire you need to collect fire boots.
+14,6,hintblock, This is a teleporter which is used to go back and forth.
+20,7,hintblock,In order to get through this door to reach the end you must collect 3 tokens.
+15,6,teleporter,20,2
+20,2,teleporter,15,6
+10,4,pushblock
+12,4,pushblock
+5,8,pushblock
+7,8,pushblock
+9,8,pushblock
+10,1,enemy,smart,right
+17,1,enemy,follow,down
+3,1,door,red
+2,1,key,red
+5,2,door,yellow
+6,1,key,yellow
+20,8,door,token,3
+21,1,token,1
+21,6,token,2
+1,6,boot,flipper
+21,3,boot,fire

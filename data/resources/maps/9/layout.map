@@ -1,0 +1,25 @@
+24,14
+#######################
+#    #            # g #
+#    #            #   #
+#    #            ##d##
+#    #                #
+#  ###                #
+#    #                #
+#                     #
+#d####                #
+#               #     #
+#               #     #
+#               #     #
+#               #     #
+#######################
+2,1,ENEMY,SMART
+1,8,DOOR,BLUE
+1,9,KEY,BLUE
+1,1,ENEMY,FOLLOW,DOWN
+22,5,ENEMY,FOLLOW,LEFT
+15,12,ENEMY,STRAIGHT,UP
+12,1,START
+12,2,HINTBLOCK,THERE ARE A LOT OF ENEMIES. BE CAREFUL!
+1,12,KEY,RED
+20,3,DOOR,RED

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SelectLevelController">
+   <left>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutX="22.0" layoutY="142.0" pannable="true" prefHeight="781.0" prefWidth="1476.0">
+               <content>
+                  <AnchorPane fx:id="scrollPaneAnchor" />
+               </content>
+            </ScrollPane>
+            <AnchorPane layoutX="-1.0" layoutY="28.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="80.0" prefWidth="1522.0" text="Levels" textAlignment="CENTER" textFill="#096b00" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font size="54.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="68.0" prefHeight="17.0" prefWidth="1521.0" text="Select a level to play and view its leaderboard" textFill="#009411" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="68.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button fx:id="btnBack" alignment="CENTER" layoutX="22.0" layoutY="934.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="110.0" style="-fx-background-color: red; -fx-border-color: white;" text="Back" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

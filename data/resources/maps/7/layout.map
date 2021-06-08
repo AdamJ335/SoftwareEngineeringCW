@@ -1,0 +1,28 @@
+26,17
+##########################
+#         # #            #
+#         # #            #
+#         #W#            #
+#                        #
+#                        #
+#fff                     #
+#  f                     #
+#fff            ###d###  #
+#               #     #  #
+#               #  g  #  #
+#               #     #  #
+#               #######  #
+#         www            #
+#        w   w           #
+#        w   w           #
+##########################
+1,1,ENEMY,STRAIGHT,UP
+7,1,TOKEN,1
+11,1,TOKEN,1
+11,15,TOKEN,1
+11,14,BOOT,FLIPPER
+20,5,PUSHBLOCK
+19,8,DOOR,TOKEN,3
+11,4,START
+24,1,BOOT,FIRE
+1,15,ENEMY,FOLLOW,UP

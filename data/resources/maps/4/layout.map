@@ -1,0 +1,38 @@
+25,17
+#########################
+#   #   #   #   #     # #
+#  ##   #   #   #  #### #
+#                       #
+#   #f#    ############ #
+#   # #        #  #   # #
+#   # ######## #    #   #
+#   #        # #t########
+#   ########f# ##########
+#          #   #t       #
+#          #   #        #
+#          #   #        #
+#####      ##d##      ###
+#          #   #        #
+#          ##d##        #
+#          d g #        #
+#########################
+23,1,START
+3,1,KEY,GREEN
+8,7,KEY,RED
+13,12,DOOR,GREEN
+13,14,DOOR,RED
+11,15,DOOR,TOKEN,5
+20,1,BOOT,FIRE
+10,1,ENEMY,FOLLOW
+1,3,ENEMY,STRAIGHT,RIGHT
+5,12,ENEMY,STRAIGHT,RIGHT
+21,12,ENEMY,STRAIGHT,LEFT
+1,15,ENEMY,FOLLOW
+16,15,ENEMY,FOLLOW
+16,7,TELEPORTER,16,9
+16,9,TELEPORTER,16,7
+2,1,TOKEN,1
+14,1,TOKEN,1
+16,5,TOKEN,1
+2,14,TOKEN,1
+22,14,TOKEN,1

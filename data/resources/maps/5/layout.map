@@ -1,0 +1,26 @@
+23,11
+#######################
+#   #    #            #
+#   #  #   # #   #    #
+#   ##   #     #   #  #
+##d##  #         #    #
+#         #www#       #
+#         #   #t      #
+#         #www#       #
+#        t#   #     #d#
+#         ##g##     # #
+#######################
+15,1,START
+2,2,PUSHBLOCK
+12,2,PUSHBLOCK
+21,9,KEY,GREEN
+2,4,DOOR,GREEN
+21,8,DOOR,TOKEN,3
+15,5,ENEMY,STRAIGHT,RIGHT
+1,5,ENEMY,FOLLOW
+12,8,ENEMY,DUMB
+9,8,TELEPORTER,15,6
+15,6,TELEPORTER,9,8
+4,8,TOKEN,1
+10,2,TOKEN,1
+17,3,TOKEN,1

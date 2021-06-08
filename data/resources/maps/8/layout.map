@@ -1,0 +1,19 @@
+23,13
+#######################
+#wwww           wwwwfg#
+#wwww           wwwwff#
+#wwww           wwwwww#
+#wwww           wwwwww#
+#                     #
+#                     #
+#                wwwww#
+#                wwwww#
+#                wwwww#
+#www     fffff        #
+#  w     f   f        #
+#######################
+10,4,PUSHBLOCK
+1,11,BOOT,FIRE
+11,11,BOOT,FLIPPER
+11,6,START
+
